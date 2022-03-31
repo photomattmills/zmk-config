@@ -1,0 +1,25 @@
+config ZMK_BLE
+	default y
+
+config ZMK_USB
+	default y
+
+if SHIELD_NICE_ERGODOX_LEFT
+
+config ZMK_KEYBOARD_NAME
+	default "ErgoDox Left"
+
+endif
+
+if SHIELD_NICE_ERGODOX_RIGHT
+
+config ZMK_KEYBOARD_NAME
+	default "ErgoDox Right"
+
+endif
+
+if SHIELD_NICE_ERGODOX_LEFT || SHIELD_NICE_ERGODOX_RIGHT
+
+config ZMK_SPLIT
+	default y
+endif

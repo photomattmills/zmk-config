@@ -1,0 +1,11 @@
+
+id: ergodash
+name: Nice Ergodox
+type: shield
+url: https://github.com/photomattmills/
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - nice_ergodox_left
+  - nice_ergodox_right
