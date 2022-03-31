@@ -23,21 +23,21 @@
 	&kp LCTRL  &kp A      &kp S      &kp D      &kp F      &kp G                            &kp H      &kp J      &kp K      &kp L      &kp SCLN   &kp QUOT
 	&mo LSFT   &kp Z      &kp X      &kp C      &kp V      &kp B      &kp M_VOLD &kp M_VOLU &kp N      &kp M      &kp CMMA   &kp DOT    &kp FSLH   &mo LSFT
 	&kp ESC    &kp GRAV   &kp LBKT   &kp LSFT   &kp LCMD                                               &kp LEFT   &kp UP     &kp RARW   &kp DOWN   &kp LALT
-	                                                       &kp NUM_1  &kp NUM_3   &kp NUM_6  &kp NUM_9
-	                                            &kp NUM_0  &kp NUM_2  &kp NUM_4   &kp NUM_7  &kp A      &kp B
-	                                                                  &kp NUM_5   &kp NUM_8
+	                                                       &mo LALT &kp LCMD    &kp LCMD  &kp LCTRL
+	                                            &kp BKSP   &kp DEL  &kp NUM_4   &kp PGUP  &kp RET      &kp SPC
+	                                                                &mo 1       &kp PGDN
 			>;
 		};
 		layer_1 {
 			bindings = <
-	&none      &none    &none      &none      &none      &none    &none      &bt BT_SEL 0 &bt BT_SEL 1 &none      &none      &none      &none      &bootloader
+	&bootloader      &none    &none      &none      &none      &none    &none      &bt BT_SEL 0 &bt BT_SEL 1 &none      &none      &none    &none  &bootloader
 	&none      &kp F1   &kp F2     &kp F3     &kp F4     &none    &none      &none        &none        &none      &none      &none      &none      &out OUT_USB
 	&none      &kp F5   &kp F6     &kp F7     &kp F8     &none                            &none        &none      &none      &none      &none      &out OUT_BLE
 	&none      &kp F9   &kp F10    &kp F11    &kp F12    &none    &none      &none        &none        &none      &none      &none      &none      &out OUT_TOG
 	&none      &none    &none      &none      &none                                                    &none      &none      &none      &none      &bt BT_CLR
 	                                                       &none      &none      &none      &none
-	                                            &none      &none      &none      &none      &none      &none
-	                                                                  &none      &none
+	                                            &none      &none      &none            &none      &none      &none
+	                                                                  &none            &none
 			>;
 		};
 	};
