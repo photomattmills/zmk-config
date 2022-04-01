@@ -8,6 +8,9 @@ if SHIELD_NICE_ERGODOX_LEFT
 
 config ZMK_KEYBOARD_NAME
 	default "ErgoDox Left"
+	
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+	default y
 
 endif
 
