@@ -28,10 +28,10 @@
 		};
 		layer_1 {
 			bindings = <                                                                    // 6    //  7
-	&bootloader      &none    &none      &none      &none      &none                    &none      &none      &none      &none      &none  
+	&bootloader      &none    &none      &none      &none      &none                    &none      &none      &none      &none      &none      &none
 	&bt BT_SEL 1     &kp F1   &kp F2     &kp F3     &kp F4     &none                    &none      &none      &none      &none      &none      &none
 	&bt BT_SEL 0     &kp F5   &kp F6     &kp F7     &kp F8     &none                    &none      &none      &none      &none      &none      &none
-  &bt BT_SEL 2     &kp F9   &kp F10    &kp F11    &kp F12    &none       &none        &none      &none      &none      &none      &none      &kp LALT
+  &bt BT_SEL 2     &kp F9   &kp F10    &kp F11    &kp F12    &none       &none        &none      &none      &none      &none      &none      &mo LALT
   &bt BT_CLR       &none    &none      &none      &none      &none       &none        &none      &none      &none      &none      &none      &none
 	                                                
 			>;
