@@ -1,0 +1,2 @@
+config ATREUS_62
+	def_bool $(shields_list_contains,atreus_62)
