@@ -3,5 +3,4 @@ if SHIELD_ATREUS_62
 
 config ZMK_KEYBOARD_NAME
 	default "Atreus Atoms > Bits"
-
 endif
