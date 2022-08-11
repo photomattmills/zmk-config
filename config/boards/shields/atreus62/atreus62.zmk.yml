@@ -1,6 +1,6 @@
 file_format: "1"
-id: atreus_62
-name: Atreus62 atoms over bits
+id: atreus62
+name: Atreus62
 type: shield
 url: https://github.com/photomattmills/
 requires: [pro_micro]

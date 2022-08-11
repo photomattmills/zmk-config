@@ -2,5 +2,5 @@
 if SHIELD_ATREUS_62
 
 config ZMK_KEYBOARD_NAME
-	default "atreus62 atoms > bits"
+	default "atreus62"
 endif
