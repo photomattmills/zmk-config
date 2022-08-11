@@ -1,2 +1,2 @@
-config ATREUS_62
+config SHIELD_ATREUS_62
 	def_bool $(shields_list_contains,atreus_62)
