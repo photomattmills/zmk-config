@@ -1,0 +1,11 @@
+file_format: "1"
+id: split_atreus
+name: Nice Ergodox
+type: shield
+url: https://github.com/photomattmills/
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - split_atreus_left
+  - split_atreus_right
