@@ -1,6 +1,6 @@
 file_format: "1"
 id: split_atreus
-name: Nice Ergodox
+name: split atreus
 type: shield
 url: https://github.com/photomattmills/
 requires: [pro_micro]

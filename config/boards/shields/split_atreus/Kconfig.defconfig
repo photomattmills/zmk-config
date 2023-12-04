@@ -1,5 +1,5 @@
 
-if SHIELD_SPLIT_ATREUS_LEFT
+if SHIELD_SPLIT_ATREUS_RIGHT
 
 config ZMK_KEYBOARD_NAME
 	default "split atreus"
